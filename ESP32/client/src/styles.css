@@ -1,0 +1,113 @@
+body {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.poppins-regular, button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #eee;
+}
+
+.roboto-mono {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#status {
+    margin-bottom: 4px;
+}
+
+.container {
+    display: flex;
+    column-gap: 10px;
+}
+
+.distancesContainer, .visualizationContainer {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#distances {
+    height: 300px;
+    overflow-y: scroll;
+    list-style-type: none;
+    background: #eee;
+    border-radius: 4px;
+    margin: 8px 0;
+    padding: 0 8px;
+}
+
+.visualizationContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.ruler {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    border-right: 1px solid #000;
+    padding-right: 4px;
+}
+
+.visualizationInnerContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.visualization {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#objects {
+    display: flex;
+    justify-content: center;
+    margin: 0 8px;
+}
+
+.object {
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    background: #000;
+}
+
+#scaleBtn {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.LightRanger8 {
+    height: 5px;
+    width: 30px;
+    background: green;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.VL53L3CX {
+    height: 2px;
+    width: 8px;
+    background: #222;
+    position: relative;
+    left: 19px;
+    bottom: 2px;
+}

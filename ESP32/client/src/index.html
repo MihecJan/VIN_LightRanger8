@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="poppins-regular">
+    <h1>ESP32 LightRanger8 data display</h1>
+    <div id="status">Status: Connecting...</div>
+
+    <div class="container">
+        <div class="distancesContainer">
+            <h2>Distances (mm):</h2>
+            <ul id="distances" class="roboto-mono"></ul>
+            <button id="clearDistances">Clear</button>
+        </div>
+
+        <div class="visualizationContainer">
+            <div class="visualizationInnerContainer">
+                <div class="ruler">
+                    <div id="ruler-1">3m</div>
+                    <div id="ruler-2">2m</div>
+                    <div id="ruler-3">1m</div>
+                    <div id="ruler-4">0m</div>
+                </div>
+    
+                <div class="visualization">
+                    <div id="objects"></div>
+    
+                    <div class="LightRanger8">
+                        <div class="VL53L3CX"></div>
+                    </div>
+                </div>
+            </div>
+
+            <button id="scaleBtn">Toggle scale</button>
+        </div>
+    </div>
+</body>
+
+</html>
