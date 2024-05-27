@@ -28,5 +28,5 @@ We relied on experimentation and existing code examples to fill these gaps.
 - STM32H7: Enabled flexible configuration and optimization of sensor settings, though with slightly less precision compared to the ESP32 implementation.
 
 ## Demonstration Videos
-[Live visualization of measurements with arduino library](https://www.youtube.com/watch?v=adKKxkB6kxs)
-[Integration with STM32H750B-DK](https://www.youtube.com/watch?v=NuOiqWg7Kew)
+- [Live visualization of measurements with arduino library](https://www.youtube.com/watch?v=adKKxkB6kxs)
+- [Integration with STM32H750B-DK](https://www.youtube.com/watch?v=NuOiqWg7Kew)
